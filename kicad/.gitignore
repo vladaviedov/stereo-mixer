@@ -1,0 +1,10 @@
+*.zip
+*.gbr
+*.gbrjob
+*.drl
+*.bak
+*-bak*
+*-cache
+*.lck
+**/gerber/*
+!**/release/*
