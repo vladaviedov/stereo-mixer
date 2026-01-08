@@ -2426,7 +2426,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CH1_Join"
+		(property "Value" "SPST"
 			(at 55.88 35.5599 90)
 			(effects
 				(font
@@ -3361,7 +3361,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CH2_Join"
+		(property "Value" "SPST"
 			(at 55.88 88.8999 90)
 			(effects
 				(font
@@ -3440,7 +3440,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CH3_Join"
+		(property "Value" "SPST"
 			(at 55.88 142.2399 90)
 			(effects
 				(font
