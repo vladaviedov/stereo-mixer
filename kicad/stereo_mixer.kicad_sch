@@ -6,10 +6,10 @@
 	(paper "USLetter")
 	(title_block
 		(title "Stereo Mixer")
-		(date "2025-10-30")
-		(rev "1.0")
+		(date "2026-01-08")
+		(rev "1.1")
 		(company "vladaviedov.org")
-		(comment 1 "Power: 12-30V Barrel Jack")
+		(comment 1 "Power: 5-25V Barrel Jack")
 		(comment 2 "CH4-5: Instrument Mono")
 		(comment 3 "CH1-3: Line Stereo")
 		(comment 4 "Up to 5 channels")
@@ -3213,10 +3213,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3de0c1c7-bd96-45d3-9376-661e6541b51f")
 		(property "Reference" "D101"
-			(at 129.54 184.4674 90)
+			(at 129.54 184.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +3223,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 129.54 187.0074 90)
 			(effects
 				(font
@@ -3233,7 +3232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 125.73 184.15 0)
 			(effects
 				(font
@@ -3269,7 +3268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Generic"
+		(property "Supplier" "https://www.digikey.com/en/products/detail/harvatek-corporation/B1911NG-20D000214U1930/15519989"
 			(at 125.73 184.15 90)
 			(effects
 				(font

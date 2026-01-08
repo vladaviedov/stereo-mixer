@@ -6,10 +6,10 @@
 	(paper "USLetter")
 	(title_block
 		(title "Stereo Mixer")
-		(date "2025-10-30")
-		(rev "1.0")
+		(date "2026-01-08")
+		(rev "1.1")
 		(company "vladaviedov.org")
-		(comment 1 "Power: 12-30V Barrel Jack")
+		(comment 1 "Power: 5-25V Barrel Jack")
 		(comment 2 "CH4-5: Instrument Mono")
 		(comment 3 "CH1-3: Line Stereo")
 	)
