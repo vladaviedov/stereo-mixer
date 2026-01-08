@@ -1,0 +1,188 @@
+(footprint "ChassisMount_Wire-0.25sqmm_2x02_P4.2mm_D0.65mm_OD1.7mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Soldered wire connection from chassis, for 4 (2x2) times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, with guide")
+	(tags "connector wire 0.25sqmm")
+	(property "Reference" "REF**"
+		(at 2.4 -3 0)
+		(layer "F.SilkS")
+		(uuid "b3b44100-5cd0-4d07-a76f-5e66c800c75d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ChassisMount_Wire-0.25sqmm_2x02_P4.2mm_D0.65mm_OD1.7mm_1"
+		(at 10.5 2.12 0)
+		(layer "F.Fab")
+		(uuid "df3bc492-1f01-45e9-8c6d-262fe42e4e38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e2ed8eb-c3ed-4dcf-87cc-a4d1280cb2a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cec86176-76d0-4109-9ef3-1dc03c1d3713")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1.9 1.9)
+		(end 6.1 1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "499b524c-abe2-4e80-9528-2a8e37fc3701")
+	)
+	(fp_rect
+		(start -1.9 -1.9)
+		(end 6.1 5.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d1f2df0b-86b1-4076-8cd7-96a0308e0cab")
+	)
+	(fp_rect
+		(start -2 -2.02)
+		(end 6.2 5.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1ab3a6fc-3386-4704-be86-9c7a8cc9f33d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.85 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c2aaae2b-cec2-4fe2-a032-3a84f153ff3c")
+	)
+	(fp_circle
+		(center 0 3.84)
+		(end 0.85 3.84)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6fdf3409-3454-4fe4-a2e7-d6afce631d35")
+	)
+	(fp_circle
+		(center 4.2 0)
+		(end 5.05 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "29c03740-4246-4913-aa38-38174dd9cf51")
+	)
+	(fp_circle
+		(center 4.2 3.84)
+		(end 5.05 3.84)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "256e6794-97ef-4b56-831c-db3ffcca607b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.5 0 90)
+		(layer "F.Fab")
+		(uuid "9ca1ea7a-236c-4fe4-bfba-86b659b0c57c")
+		(effects
+			(font
+				(size 0.71 0.71)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.85 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.135135)
+		(uuid "efcc781b-d038-481e-a865-04dce15a4f35")
+	)
+	(pad "2" thru_hole circle
+		(at 4.2 0)
+		(size 1.85 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2bfd6f19-a738-4f04-8894-54bcb964ffca")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 3.84)
+		(size 1.85 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1351351351)
+		(uuid "50686ea8-2891-403c-9e6e-1759dc2f3e29")
+	)
+	(pad "4" thru_hole circle
+		(at 4.2 3.84)
+		(size 1.85 1.85)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "31b89ec6-8265-4a94-b4fb-4dd9a472668c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x06_P4.2mm_D0.65mm_OD1.7mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
