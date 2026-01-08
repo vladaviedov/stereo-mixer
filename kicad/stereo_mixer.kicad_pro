@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|156500000|105300000|0ef010b7-60e0-4db1-b503-4a04596d57ff|735f9506-7e2e-48b1-8ac1-afedf2331745",
+          "Margin for mounting"
+        ],
+        [
+          "silk_edge_clearance|156500000|114200000|0ef010b7-60e0-4db1-b503-4a04596d57ff|e0b9a9f2-e7fe-47d8-9031-13db242d4c7b",
+          "Margin for mounting"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -719,10 +728,10 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${EXCLUDE_FROM_BOARD}"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
