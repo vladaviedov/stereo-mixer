@@ -8,3 +8,4 @@
 *.lck
 **/gerber/*
 !**/release/*
+*.kicad_prl
